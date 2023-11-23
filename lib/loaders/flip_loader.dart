@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, unnecessary_this, use_key_in_widget_constructors, prefer_const_constructors_in_immutables, no_logic_in_create_state, library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 import 'dart:math';
 

@@ -5,7 +5,7 @@ class ColorLoader extends StatefulWidget {
   final List<Color>? colors;
   final Duration? duration;
 
-  ColorLoader({this.colors, this.duration});
+  ColorLoader({required this.colors, required this.duration});
 
   @override
   _ColorLoaderState createState() =>
