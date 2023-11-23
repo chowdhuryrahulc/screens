@@ -7,7 +7,7 @@ class Rating extends StatefulWidget {
   final Color color;
 
   Rating(
-      {this.initialRating,
+      {required this.initialRating,
       this.onRated,
       this.size = 18.0,
       this.color = Colors.amber});

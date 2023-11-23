@@ -117,11 +117,13 @@ class _SlideListViewState extends State<SlideListView>
                   ),
                   onPressed: () {
                     if (_currentView == "slides") {
+                      print('Forward');
                       _animationController.forward();
 
                       _mainPageController.animateToPage(1,
                           duration: widget.duration, curve: Curves.easeIn);
                     } else {
+                      print('Reverse ${_currentView}');
                       _animationController.reverse();
                       _mainPageController.animateToPage(0,
                           duration: widget.duration, curve: Curves.easeIn);

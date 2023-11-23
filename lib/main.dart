@@ -18,6 +18,8 @@ import 'package:screens/login_screen_3.dart';
 import 'package:screens/login_screen_4.dart';
 import 'package:screens/login_screen_5.dart';
 import 'package:screens/login_screen_6.dart';
+import 'package:screens/misc/rating.dart';
+import 'package:screens/misc/slide_list_view.dart';
 
 void main() => runApp(MyApp());
 
@@ -158,6 +160,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
             // ColorLoader5(),
 
+            //! STAR-RATING
+            // Center(child: Rating(initialRating: 3,)),
+
+            //! SLIDE-LIST-VIEW (work-in-progress)
+            // SlideListView(
+            //   view1: buildPage(Colors.red, "Text-1"), 
+            //   view2: buildPage(Colors.yellow, "Text-2"), 
+            //   enabledSwipe: true,)
+
+
             // Graph()
 
         );
@@ -171,7 +183,7 @@ class _MyHomePageState extends State<MyHomePage> {
           text,
           style: const TextStyle(
             fontSize: 50.0,
-            color: Colors.white,
+            color: Colors.yellow,
           ),
         ),
       ),
