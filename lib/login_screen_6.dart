@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, sort_child_properties_last
+
 import "package:flutter/material.dart";
 
 class LoginScreen6 extends StatefulWidget {
@@ -25,8 +27,8 @@ class _LoginScreen6State extends State<LoginScreen6> {
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("assets/images/background_image_one_signin.png"),
-                  fit: BoxFit.fill,
+                  image: AssetImage("assets/images/background_image_one_signin.jpg"),
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
@@ -47,10 +49,10 @@ class _LoginScreen6State extends State<LoginScreen6> {
                     width: double.infinity,
                     child: TextField(
                       controller: emailController,
-                      style: TextStyle(color: Color.fromRGBO(41, 41, 41, 1)),
+                      style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         hintText: "Email",
-                        hintStyle: TextStyle(color: Color.fromRGBO(121, 121, 121, 1)),
+                        hintStyle: TextStyle(color: Colors.white),
                       ),
                       keyboardType: TextInputType.emailAddress,
                     ),
@@ -63,10 +65,10 @@ class _LoginScreen6State extends State<LoginScreen6> {
                     width: double.infinity,
                     child: TextField(
                       controller: passwordController,
-                      style: TextStyle(color: Color.fromRGBO(41, 41, 41, 1)),
+                      style: TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         hintText: "Password",
-                        hintStyle: TextStyle(color: Color.fromRGBO(121, 121, 121, 1)),
+                        hintStyle: TextStyle(color: Colors.white),
                       ),
                       keyboardType: TextInputType.emailAddress,
                       obscureText: true,
@@ -80,7 +82,7 @@ class _LoginScreen6State extends State<LoginScreen6> {
                       child: Text(
                         "Sign in",
                         style: TextStyle(
-                          color: Colors.black,
+                          color: Colors.white,
                           fontSize: 25,
                           fontWeight: FontWeight.bold,
                         ),
@@ -106,22 +108,22 @@ class _LoginScreen6State extends State<LoginScreen6> {
                         ))
                   ],
                 ),
-                SizedBox(height: MediaQuery.of(context).size.height * 0.014),
-                Padding(
-                  padding: const EdgeInsets.only(left: 40.0),
-                  child: TextButton(
-                    child: Text(
-                      "Sign up",
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                        decoration: TextDecoration.underline,
-                        fontSize: 15,
-                      ),
-                    ),
-                    onPressed: widget.navigatePage,
-                  ),
-                ),
+                // SizedBox(height: MediaQuery.of(context).size.height * 0.014),
+                // Padding(
+                //   padding: const EdgeInsets.only(left: 40.0),
+                //   child: TextButton(
+                //     child: Text(
+                //       "Sign up",
+                //       style: TextStyle(
+                //         color: Colors.black,
+                //         fontWeight: FontWeight.bold,
+                //         decoration: TextDecoration.underline,
+                //         fontSize: 15,
+                //       ),
+                //     ),
+                //     onPressed: widget.navigatePage,
+                //   ),
+                // ),
               ],
             ),
           ],

@@ -65,6 +65,7 @@ flutter:
     - assets/images/mountains.jpg
     - assets/images/image.jpeg
     - assets/images/signin_page_background.jpeg
+    - assets/images/background_image_one_signin.jpg
 
   # assets:
   #   - images/a_dot_burr.jpeg

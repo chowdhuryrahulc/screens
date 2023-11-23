@@ -3,6 +3,7 @@ import 'package:screens/login_screen_2.dart';
 import 'package:screens/login_screen_3.dart';
 import 'package:screens/login_screen_4.dart';
 import 'package:screens/login_screen_5.dart';
+import 'package:screens/login_screen_6.dart';
 
 import 'login_screen_1.dart';
 
@@ -32,14 +33,14 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body:
-          LoginScreen5(avatarImage: 'assets/images/image.jpeg', onLoginClick: () {}, googleSignIn: () {}, navigatePage: () {},),
+      body: LoginScreen6(onLoginClick: () {}, navigatePage: () {}),
+      // LoginScreen5(avatarImage: 'assets/images/image.jpeg', onLoginClick: () {}, googleSignIn: () {}, navigatePage: () {},),
       //     LoginScreen4(
       //       primaryColor: Color(0xff18203d),
       //  secondaryColor: Color(0xff232c51),
       //  logoGreen: Color(0xff25bcbb),
-          // ),
-          // LoginScreen3()
+      // ),
+      // LoginScreen3()
       //     LoginScreen2(
       //        backgroundColor1: Color(0xFF444152),
       //  backgroundColor2: Color(0xFF6f6c7d),
