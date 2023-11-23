@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_constructors_in_immutables
+
 import 'package:flutter/material.dart';
 
 class LoginScreen5 extends StatefulWidget {
@@ -29,7 +31,7 @@ class _LoginScreen5State extends State<LoginScreen5> {
             width: double.infinity,
             height: MediaQuery.of(context).size.height,
             decoration: BoxDecoration(
-              image: DecorationImage(image: AssetImage('assets/images/signin_page_background.png'), fit: BoxFit.fill),
+              image: DecorationImage(image: AssetImage('assets/images/signin_page_background.jpeg'), fit: BoxFit.fill),
             ),
           ),
           Container(
